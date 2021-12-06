@@ -1,18 +1,18 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
     return (
         <header className="header">
             <div className="logo">
-                Education T<span>a</span>T
+                <NavLink to="/" className="link-home">Education T<span>a</span>T</NavLink>
             </div>
             <div>
                 <ul className="navigation">
-                    <li className="navigation-list-item"><Link className="navigation-link" to="/">Home</Link></li>
-                    <li className="navigation-list-item"><Link className="navigation-link" to="/">Teachers</Link></li>
-                    <li className="navigation-list-item"><Link className="navigation-link" to="/">About</Link></li>
-                    <li className="navigation-list-item"><Link className="navigation-link" to="/">Contact Us</Link></li>
+                    <li className="navigation-list-item"><NavLink className="navigation-link" to="/">Home</NavLink></li>
+                    <li className="navigation-list-item"><NavLink className="navigation-link" to="/">Teachers</NavLink></li>
+                    <li className="navigation-list-item"><NavLink className="navigation-link" to="/">About</NavLink></li>
+                    <li className="navigation-list-item"><NavLink className="navigation-link" to="/">Contact Us</NavLink></li>
                 </ul>
             </div>
         </header>

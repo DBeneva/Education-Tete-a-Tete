@@ -8,6 +8,11 @@
     box-shadow: 1px 1px 6px 0 gray;
 }
 
+.link-home {
+    text-decoration: none;
+    color: white;
+}
+
 .logo {
     font-size: 35px;
     font-family: Georgia, serif;
