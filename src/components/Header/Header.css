@@ -1,0 +1,40 @@
+.header {
+    padding: 30px 50px;
+    background-color: rgb(40, 46, 64);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px 0 gray;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: Georgia, serif;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+
+.logo span {
+    color: rgb(2, 140, 208);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigation-list-item {
+    padding: 0 20px;
+}
+
+.navigation-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation-link:hover {
+    color: rgb(2, 140, 208);
+}
