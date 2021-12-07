@@ -1,0 +1,48 @@
+.home-image {
+    margin-top: 40px;
+}
+
+.home-image img {
+    max-height: 30vh;
+}
+
+.home-content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-content span {
+    color: rgb(2, 140, 208);
+}
+
+.home-content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 40%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.home-btn {
+    background-color: rgb(40, 46, 64);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 40px;
+}
+
+.home-btn span {
+    color: rgb(2, 140, 208);
+}
+
+.home-btn:hover {
+    background-color:rgb(2, 140, 208);
+    color: rgb(40, 46, 64);
+    box-shadow: 1px 1px 6px 0 gray;
+}
+
+.home-btn:hover span {
+    color: rgba(128, 191, 223, 0.952);
+}
